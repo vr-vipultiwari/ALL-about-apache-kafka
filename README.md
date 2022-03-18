@@ -93,9 +93,17 @@ Suppose thousands of machine pushing data into the kafka topic , this makes diff
 
 # KAFKA DON'T ALLOW MULTIPLE CONSUMER TO FETCH DATA SIMULTENOUSLY FROM SAME PARTITION
 
+### INTRODUCTION OF KAFKA CONNECT : 
+
+In order to understand kafka connect , let us take an example , suppose you own a supermarket and you are usimg a third party billing application for generating invoice and you want to implement kafka to send invoice to multiple systems . but the challenge here is that you need to modify your third party application to make it as producer but you don't have source code to modify it make it as a producer. to resolve this problem kafka connect commes into the picture.
+
+It will place right between the datasource and kafka cluster . you can say it is a  readymade producer , all you need to configure it with the datasource  
 
 
+There are two types of kafka connector : -  
 
+                      - source kafka connect  - Internally uses kafka producer api to act as producer to put data into kafka server from datasource 
+                      - sink kafka connect  - Internally usees kafka consumer api to act as consumer to sink data from kafka server to external database 
 
 
 
