@@ -85,8 +85,13 @@ EXAMPLE
 Let us take example of DMART , we know that dmart have serval biilling counters in every store now they want to store all the invoice to there data center .
 Here kafka can be excellent solution for this scenerio.
 
-🦖 ## The first thing we need to do is to create producer application in every billing location, these producer will send invoices to kafka as messages.
-   ## The next thing we need to do is to create a consumer application , that will read the data from kafka topic and store it into the database.
+## The first thing we need to do is to create producer application in every billing location, these producer will send invoices to kafka as messages.
+## The next thing we need to do is to create a consumer application , that will read the data from kafka topic and store it into the database.
+
+Suppose thousands of machine pushing data into the kafka topic , this makes difficult for single kafka topic to handle this much of load . So we will take help of kafka topic partion to make the system scalable .
+
+
+# KAFKA DON'T ALLOW MULTIPLE CONSUMER TO FETCH DATA SIMULTENOUSLY FROM SAME PARTITION
 
 
 
