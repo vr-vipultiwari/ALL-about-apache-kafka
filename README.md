@@ -42,7 +42,23 @@ Later on , kafka added several three more component to become real time data str
                                                         
 🫀   
 ## Just like the circulatory carries blood to all part of the body (infrastructure ) same way kafka carries to data to all the part of software ecosystem 
-       
+## Producer send data to kafka as soon as bussiness event occurs  
+## Consumer consumes the messages as soon as data arrive at broker
+
+
+# Key terminology  :-
+-----------------
+
+### Producer is an application or system that sends data or message records . The message can have different meaning and structure for us but for kafka it is aimple array of byte .
+
+### Cunsumer is an application that recieve data from kafka server , anyone interested in that data stored on kafka sever can become consumer. Consumer can ask for data sent by any producer provided they they have access to that .
+
+
+
+
+
+
+
  
 
 
