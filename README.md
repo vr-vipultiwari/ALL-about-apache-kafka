@@ -40,7 +40,8 @@ Later on , kafka added several three more component to become real time data str
                                                         - Kafka broker  ----> server application that can be installled on the machine 
                                                         
                                                         
-🫀   ## Just like the circulatory carries blood to all part of the body (infrastructure ) same way kafka carries to data to all the part of software ecosystem 
+🫀   
+## Just like the circulatory carries blood to all part of the body (infrastructure ) same way kafka carries to data to all the part of software ecosystem 
        
  
 
