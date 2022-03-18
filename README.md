@@ -1,4 +1,4 @@
-# ALL-about-apache-kafka
+# All-About-Apache-Kafka  ( Gift to the technology world by Linkdin )
 
 ## If we go on the documentation of apache kafka it says it is a "distributed streaming platform" 
 well what does that mean ? 🤔
@@ -49,9 +49,44 @@ Later on , kafka added several three more component to become real time data str
 # Key terminology  :-
 -----------------
 
-### Producer is an application or system that sends data or message records . The message can have different meaning and structure for us but for kafka it is aimple array of byte .
+### *️⃣ Producer is an application or system that sends data or message records . The message can have different meaning and structure for us but for kafka it is aimple array of byte .
 
-### Cunsumer is an application that recieve data from kafka server , anyone interested in that data stored on kafka sever can become consumer. Consumer can ask for data sent by any producer provided they they have access to that .
+### *️⃣ Cunsumer is an application that recieve data from kafka server , anyone interested in that data stored on kafka sever can become consumer. Consumer can ask for data sent by any producer provided they they have access to that.
+
+Now its upto consumer application , what operation they want to perform with the data.
+
+
+###  *️⃣ Broker :- Broker is nothing but kafka server 
+
+###  *️⃣ Cluster :- Clusters are nothing but group of computers that are working togeather for a single perpose hence each kafka instance running on different compputer on the kafka cluster 
+
+
+## WHAT IS TOPIC IN KAFKA ❓
+
+### 🅰️  kafka server might be getting data or message records from multiple producer and when cunsumer asking for data then, kafka might say to cunsumer which data you want . It might happen same producer sends multiple type of data for example smart electricity meter can send current load sends (every sec) , consumed unit (every hour ), voltage load (every sec ) etc. to remove this confusion Topic conccept comes into the picture .
+Topic is just a placeholder in the kafka server to capture specfic type of data stream.
+
+
+                                                - For our example 
+                                                          - We can have three topic 
+                                                            - current load 
+                                                            - consumed unit 
+                                                            - voltage load 
+
+## TOPIC PARTITION  - It might happen that message can be very large even greater than the entire topic memory, in that can we divide partion the topic and spread it on multiple computer in the cluster . Small and idependent portion of topic 
+
+
+
+## Consumer Group are the group are the application that work togeather to accomplish the task 
+
+EXAMPLE 
+--------
+
+Let us take example of DMART , we know that dmart have serval biilling counters in every store now they want to store all the invoice to there data center .
+Here kafka can be excellent solution for this scenerio.
+
+🦖 ## The first thing we need to do is to create producer application in every billing location, these producer will send invoices to kafka as messages.
+   ## The next thing we need to do is to create a consumer application , that will read the data from kafka topic and store it into the database.
 
 
 
