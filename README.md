@@ -31,7 +31,18 @@ Kafka adopted PUBLISHER-SUBSCRIBER messaging architecture and it work as enterpr
         - Message Broker   -  Consumer is also a client appplication that read  messages from broker and process it 
         
         
+Later on , kafka added several three more component to become real time data streaming platform  and now all new componts become 
 
+                                                        - kafka connect   ----> which address data intrigity problem for which kafka designed 
+                                                        - kafka KSQL  ----->  Kafka to become a database 
+                                                        - kafka client -----> Library to create producer and consumer application
+                                                        - Kafka streams  ----> This is another library to create real time data processing application
+                                                        - Kafka broker  ----> server application that can be installled on the machine 
+                                                        
+                                                        
+🫀   ## Just like the circulatory carries blood to all part of the body (infrastructure ) same way kafka carries to data to all the part of software ecosystem 
+       
+ 
 
 
 
