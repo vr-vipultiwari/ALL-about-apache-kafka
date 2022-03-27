@@ -77,7 +77,7 @@ Topic is just a placeholder in the kafka server to capture specfic type of data 
 
 
 
-## Consumer - Group are the group are the application that work togeather to accomplish the task 
+## Consumer Group -  these are the group are the application that work togeather to accomplish the task 
 
 EXAMPLE 
 --------
