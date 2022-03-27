@@ -41,7 +41,7 @@ Later on , kafka added three more component to become real time data streaming p
                                                         
                                                         
 🫀   
-## Just like the circulatory carries blood to all part of the body (infrastructure ) same way kafka carries to data to all the part of software ecosystem 
+## Just like the circulatory systemm in our body carries blood to all part of the body (infrastructure ) same way kafka carries to data to all the part of software ecosystem 
 ## Producer send data to kafka as soon as bussiness event occurs  
 ## Consumer consumes the messages as soon as data arrive at broker
 
