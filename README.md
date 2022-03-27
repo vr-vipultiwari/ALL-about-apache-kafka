@@ -27,8 +27,8 @@ Kafka adopted PUBLISHER-SUBSCRIBER messaging architecture and it work as enterpr
 ### A TYPICAL MESSAGING SYSTEM HAS THREE COMPONENTS :
         
         - Message Producer -  PRODUCER is client application that sends data records , these records are called messages 
-        - Message Consumer -  Broker is reponsible for recieveing these messages and store it local storage
-        - Message Broker   -  Consumer is also a client appplication that read  messages from broker and process it 
+        - Message Consumer -  Consumer is also a client appplication that read  messages from broker and process it 
+        - Message Broker   -  Broker is reponsible for recieveing these messages and store it local storage 
         
         
 Later on , kafka added several three more component to become real time data streaming platform  and now all new componts become 
