@@ -1,4 +1,4 @@
-# All-About-Apache-Kafka  ( Gift to the technology world by Linkdin )
+# All-About-Apache-Kafka  ( Gift to the technology world by LinkdIn )
 
 ## If we go on the documentation of apache kafka it says it is a "distributed streaming platform" 
 well what does that mean ? 🤔
