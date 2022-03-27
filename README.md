@@ -58,7 +58,7 @@ Now its upto consumer application , what operation they want to perform with the
 
 ###  *️⃣ Broker :- Broker is nothing but kafka server 
 
-###  *️⃣ Cluster :- Clusters are nothing but group of computers that are working togeather for a single purpose hence each kafka instance running on different compputer on the kafka cluster 
+###  *️⃣ Cluster :- Clusters are nothing but group of computers that are working togeather for a single purpose hence each kafka instance running on different computer on the kafka cluster 
 
 
 ## WHAT IS TOPIC IN KAFKA ❓
