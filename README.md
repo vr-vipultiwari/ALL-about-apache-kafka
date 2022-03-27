@@ -41,7 +41,7 @@ Later on , kafka added three more component to become real time data streaming p
                                                         
                                                         
 🫀   
-## Just like the circulatory systemm in our body carries blood to all part of the body (infrastructure ) same way kafka carries to data to all the part of software ecosystem 
+## Just like the circulatory system carries blood to all part of the body (infrastructure) same way kafka carries to data to all the part of software ecosystem 
 ## Producer send data to kafka as soon as bussiness event occurs  
 ## Consumer consumes the messages as soon as data arrive at broker
 
@@ -49,16 +49,16 @@ Later on , kafka added three more component to become real time data streaming p
 # Key terminology  :-
 -----------------
 
-### *️⃣ Producer is an application or system that sends data or message records . The message can have different meaning and structure for us but for kafka it is aimple array of byte .
+### *️⃣ Producer is an application or system that sends data or message records . The message can have different meaning and structure for us but for kafka it is simple array of byte .
 
-### *️⃣ Cunsumer is an application that recieve data from kafka server , anyone interested in that data stored on kafka sever can become consumer. Consumer can ask for data sent by any producer provided they they have access to that.
+### *️⃣ Cunsumer is an application that recieve data from kafka server , anyone interested in that data stored on kafka sever can become consumer. Consumer can ask for data sent by any producer provided they have access to that.
 
 Now its upto consumer application , what operation they want to perform with the data.
 
 
 ###  *️⃣ Broker :- Broker is nothing but kafka server 
 
-###  *️⃣ Cluster :- Clusters are nothing but group of computers that are working togeather for a single perpose hence each kafka instance running on different compputer on the kafka cluster 
+###  *️⃣ Cluster :- Clusters are nothing but group of computers that are working togeather for a single purpose hence each kafka instance running on different compputer on the kafka cluster 
 
 
 ## WHAT IS TOPIC IN KAFKA ❓
@@ -77,7 +77,7 @@ Topic is just a placeholder in the kafka server to capture specfic type of data 
 
 
 
-## Consumer Group are the group are the application that work togeather to accomplish the task 
+## Consumer - Group are the group are the application that work togeather to accomplish the task 
 
 EXAMPLE 
 --------
