@@ -31,7 +31,7 @@ Kafka adopted PUBLISHER-SUBSCRIBER messaging architecture and it work as enterpr
         - Message Broker   -  Broker is reponsible for recieveing these messages and store it in local storage 
         
         
-Later on , kafka added several three more component to become real time data streaming platform  and now all new componts become 
+Later on , kafka added three more component to become real time data streaming platform  and now all new componts become 
 
                                                         - kafka connect   ----> which address data intrigity problem for which kafka designed 
                                                         - kafka KSQL  ----->  Kafka to become a database 
