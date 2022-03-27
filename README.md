@@ -73,7 +73,7 @@ Topic is just a placeholder in the kafka server to capture specfic type of data 
                                                             - consumed unit 
                                                             - voltage load 
 
-## TOPIC PARTITION  - It might happen that message can be very large even greater than the entire topic memory, in that can we divide partion the topic and spread it on multiple computer in the cluster . Small and idependent portion of topic 
+## TOPIC PARTITION  - It might happen that message can be very large even greater than the entire topic memory, in that case we can partion the topic and spread it on multiple computer in the cluster . Small and idependent portion of topic is called partition
 
 
 
