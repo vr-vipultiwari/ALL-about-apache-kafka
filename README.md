@@ -90,6 +90,9 @@ Here kafka can be excellent solution for this scenerio.
 
 Suppose thousands of machine pushing data into the kafka topic , this makes difficult for single kafka topic to handle this much of load . So we will take help of kafka topic partion to make the system scalable .
 
+Topic partioning is the factor that makes kafka as scalable.
+
+
 
 # KAFKA DON'T ALLOW MULTIPLE CONSUMER TO FETCH DATA SIMULTENOUSLY FROM SAME PARTITION
 
