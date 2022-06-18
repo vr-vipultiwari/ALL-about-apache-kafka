@@ -116,6 +116,8 @@ As a connector developer, all you need to do is to implement two Java classes. T
 
 Assume you want to bring some data from an RDBMS to a Kafka Cluster.All you need to do is to take an appropriate source connector, for example a JDBC source connector.
 Then you install it in your Kafka connect, configure it and run it. That's all.
+
+The Kafka Connect itself is a Cluster.Each individual unit in the Connect Cluster is called a Connect Worker. You can think of it as a group of computers, each running one Kafka Connect Worker.
  
 
 
