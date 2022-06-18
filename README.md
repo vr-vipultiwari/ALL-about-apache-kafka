@@ -124,6 +124,10 @@ The Kafka Connect itself is a Cluster.Each individual unit in the Connect Cluste
 Kafka Streams is a library for building applications and microservices where the input data are streamed in a Kafka topic. So you cannot use Kafka streams if your data is not coming to a Kafka topic. The starting point for the Kafka Stream is one or more Kafka topics.
 
 
+the most powerful feature of Kafka streams is being a simple library. So, you can create a standard . Java and Scala applications to perform real time stream processing. And you can deploy your applications to any machine, virtual machine, container, or on a Kubernetes cluster.
+
+Your application is just another typical application with inherent parallel processing capability, fault tolerance and scalability which is given to you by the Kafka streams library as an out of the box capability.
+
 
 
 
