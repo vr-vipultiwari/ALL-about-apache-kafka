@@ -109,7 +109,13 @@ There are two types of kafka connector : -
                       - sink kafka connect  - Internally usees kafka consumer api to act as consumer to sink data from kafka server to external database 
 
 
+kafka developer created Kafka connect framework to implement kafka connector.  This framework allow you to write kafka connectors ( SinkConnector and SourceConnector )
+It takes care of all the heavy liffting task scalebility , error handling , fault tollerence etc.
 
+As a connector developer, all you need to do is to implement two Java classes. The first one is SourceConnector or SinkConnector class. And the second one is the SourceTask or the SinkTask.
+
+Assume you want to bring some data from an RDBMS to a Kafka Cluster.All you need to do is to take an appropriate source connector, for example a JDBC source connector.
+Then you install it in your Kafka connect, configure it and run it. That's all.
  
 
 
