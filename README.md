@@ -119,7 +119,9 @@ Then you install it in your Kafka connect, configure it and run it. That's all.
 
 The Kafka Connect itself is a Cluster.Each individual unit in the Connect Cluster is called a Connect Worker. You can think of it as a group of computers, each running one Kafka Connect Worker.
  
+## KAFKA STREAMS 
 
+Kafka Streams is a library for building applications and microservices where the input data are streamed in a Kafka topic. So you cannot use Kafka streams if your data is not coming to a Kafka topic. The starting point for the Kafka Stream is one or more Kafka topics.
 
 
 
