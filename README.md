@@ -55,6 +55,7 @@ Later on , kafka added three more component to become real time data streaming p
 
 Now its upto consumer application , what operation they want to perform with the data.
 
+###  ✳️ Producer get the required metadata ( Broker , Topic , Partition ) that tells to which leader partition the messages required to be published 
 
 ###  *️⃣ Broker :- Broker is nothing but kafka server 
 
@@ -88,7 +89,7 @@ Here kafka can be excellent solution for this scenerio.
 ## The first thing we need to do is to create producer application in every billing location, these producer will send invoices to kafka as messages.
 ## The next thing we need to do is to create a consumer application , that will read the data from kafka topic and store it into the database.
 
-Suppose thousands of machine pushing data into the kafka topic , this makes difficult for single kafka topic to handle this much of load . So we will take help of kafka topic partion to make the system scalable .
+Suppose thousands of machine pushing data into the kafka topic , this makes difficult for single kafka topic to handle this much of load . So we will take help of kafka topic partion to make the system scalable.
 
 Topic partioning is the factor that makes kafka as scalable.
 
